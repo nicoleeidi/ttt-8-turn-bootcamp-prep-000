@@ -36,13 +36,13 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-<<<<<<< HEAD
+
   input=gets.strip
   index=input_to_index(input)
-=======
+
   input=gets.string
   input_to_index(input)
->>>>>>> 60d659bf8af53ed9cb659d20b92ab8debbc7919f
+
   if valid_move?(board,index)
     board[index]= "X"
     display_board(board)
