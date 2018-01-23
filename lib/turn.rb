@@ -40,9 +40,7 @@ def turn(board)
   input=gets.strip
   index=input_to_index(input)
 
-  input=gets.string
-  input_to_index(input)
-
+  
   if valid_move?(board,index)
     board[index]= "X"
     display_board(board)
